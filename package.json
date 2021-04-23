@@ -1,6 +1,6 @@
 {
   "name": "wwb-component",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "wwb common component library",
   "main": "./dist/wwb-component.common.js",
   "author": "Kevin-hope",
