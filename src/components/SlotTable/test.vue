@@ -9,7 +9,7 @@
       @pageChange="pageChange"
       @pageSizeChange="pageSizeChange"
     >
-      <template #operating="{ row }">
+      <template #operating>
         <el-button type="text">
           编辑
         </el-button>
