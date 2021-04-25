@@ -1,18 +1,24 @@
 {
   "name": "wwb-component",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "wwb common component library",
   "author": "Kevin-hope",
   "email": "1827844001@qq.com",
-  "main": "./src/components/index.js",
+  "main": "disr/wwb-component.common.js",
+  "files": [
+    "dist",
+    "src",
+    "examples",
+    "packages"
+  ],
   "license": "ISC",
   "private": false,
   "scripts": {
     "dev": "vue-cli-service serve",
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib --name wwb-component ./src/components/index.js"
+    "old:build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --name wwb-component ./packages/index.js"
   },
   "bugs": {
     "url": "https://github.com/Kevin-hope/wwb-component.git"

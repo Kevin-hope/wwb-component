@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import SlotTable from './components/SlotTable/test.vue'
+import SlotTable from './TestSlotTable'
 
 export default {
   name: 'App',

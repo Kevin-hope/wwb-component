@@ -22,12 +22,13 @@
 </template>
 
 <script>
-import SlotTable from './index.vue'
+// import wwb from '../dist/wwb-component.common.js'
+import wwb from '../packages/index'
 
 export default {
   name: 'TestSlotTable',
   components: {
-    SlotTable
+    SlotTable: wwb.SlotTable
   },
   data() {
     return {
